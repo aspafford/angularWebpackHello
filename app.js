@@ -1,8 +1,6 @@
 var app = angular.module('app', []);
 
-app.controller('AppCtrl', function($scope) {
-  console.log('ok!');
-
-  $scope.someText = 'ok';
-
+app.controller('AppCtrl', function($scope, local) {
+  $scope.myLocal = local;
+  local.set('someText', 'okaay');
 })
