@@ -1,0 +1,1 @@
+angular.module('app').controller('AppCtrl', require('./app.controller'));
