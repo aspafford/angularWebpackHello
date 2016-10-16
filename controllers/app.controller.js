@@ -1,6 +1,3 @@
-function AppCtrl($scope) {
-  $scope.myLocal = 'okayy';
-  console.log('ok');
+module.exports = function ($scope) {
+  $scope.greeting = 'Hello, World!';
 }
-
-module.exports = AppCtrl;
